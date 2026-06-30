@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.png" width="100%" alt="World Flag Challenge Banner"/>
+<img src="docs/banner-flag.png" width="100%" alt="World Flag Challenge Banner"/>
 
 # 🌍 World Flag Challenge
 
@@ -57,15 +57,15 @@ Game ini menghadirkan berbagai mode permainan, tingkat kesulitan, sistem statist
 
 <div align="center">
 
-<img src="./screenshots/home.png" width="30%">
-<img src="./screenshots/gameplay.png" width="30%">
-<img src="./screenshots/collection.png" width="30%">
+<img src="docs/flag1.png" width="30%">
+<img src="docs/flag2.png" width="30%">
+<img src="docs/flag3.png" width="30%">
 
 <br><br>
 
-<img src="./screenshots/statistics.png" width="30%">
-<img src="./screenshots/achievement.png" width="30%">
-<img src="./screenshots/settings.png" width="30%">
+<img src="docs/flag4.png" width="30%">
+<img src="docs/flag5.png" width="30%">
+<img src="docs/flag6.png" width="30%">
 
 </div>
 
