@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>World Flag Challenge</title>
+<link rel="preconnect" href="https://flagcdn.com">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-theme="dark">
+
+<div id="app">
+
+  <!-- TOP NAV -->
+  <header class="topbar glass">
+    <div class="topbar-inner">
+      <div class="brand" data-route="home">
+        <span class="brand-globe">🌍</span>
+        <span class="brand-text">World Flag <strong>Challenge</strong></span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-route="home" data-i18n="nav_home">Beranda</button>
+        <button class="nav-btn" data-route="play" data-i18n="nav_play">Main</button>
+        <button class="nav-btn" data-route="collection" data-i18n="nav_collection">Koleksi</button>
+        <button class="nav-btn" data-route="stats" data-i18n="nav_stats">Statistik</button>
+        <button class="nav-btn" data-route="achievements" data-i18n="nav_achievements">Pencapaian</button>
+        <button class="nav-btn" data-route="settings" data-i18n="nav_settings">Pengaturan</button>
+      </nav>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <button class="nav-btn" data-route="home" data-i18n="nav_home">Beranda</button>
+    <button class="nav-btn" data-route="play" data-i18n="nav_play">Main</button>
+    <button class="nav-btn" data-route="collection" data-i18n="nav_collection">Koleksi</button>
+    <button class="nav-btn" data-route="stats" data-i18n="nav_stats">Statistik</button>
+    <button class="nav-btn" data-route="achievements" data-i18n="nav_achievements">Pencapaian</button>
+    <button class="nav-btn" data-route="settings" data-i18n="nav_settings">Pengaturan</button>
+  </div>
+
+  <main id="mainContent" class="main-content">
+    <!-- Views injected dynamically by router -->
+  </main>
+
+</div>
+
+<!-- Achievement toast container -->
+<div id="achievementToastContainer" class="achievement-toast-container"></div>
+
+<!-- Generic Modal Root -->
+<div id="modalRoot"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
